@@ -1,0 +1,11 @@
+<%- include("./partials/header.ejs") -%>
+    <div class="container-sm post">
+        <h1 class="postHeading">
+            <%=postTitle%>
+        </h1>
+        <p><strong><%=postDate%></strong></p>
+        <p>
+            <%= postContent %>
+        </p>
+    </div>
+    <%- include("./partials/footer") -%>

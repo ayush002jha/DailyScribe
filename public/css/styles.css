@@ -1,0 +1,212 @@
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.spacer {
+    height: 100px;
+    width: auto;
+}
+
+.container {
+    /* max-width:95%; */
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px 20px;
+    align-items: stretch;
+    justify-items: stretch;
+    text-align: justify;
+
+}
+.content{
+    overflow-wrap: break-word;
+}
+
+.container-sm {
+    text-align: center !important;
+    margin: 60px auto;
+    letter-spacing: 3px;
+
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #1A120B !important;
+    position: fixed;
+    width: 100%;
+}
+.navbar-nav li a:hover {
+    color: #CC9544 !important;
+}   
+
+a {
+    color: #E5E5CB !important;
+
+}
+
+p a {
+    color: #1A120B !important;
+}
+h1{
+    color: #1A120B !important;
+    letter-spacing: 5px;
+    /* font-size: 2rem; */
+
+}
+h2{
+    font-weight: 600;
+    font-size: 26px;
+    text-align: left !important;
+}
+.abtHeading{
+    font-size: 5rem;
+}
+.abtPara{
+    text-align: justify;
+}
+.abtForm{
+    padding: 30px 0px;
+}
+.abtButton{
+    height: 60px ;
+}
+.writeHeading{
+    margin: 30px auto;
+}
+.writeButton{
+    height: 50px;
+}
+
+.form-control{
+    border-color: #1A120B !important;
+}
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(204, 149, 68,0.25);
+} 
+.form-label{
+    color: #1A120B !important;
+}
+.post{
+    text-align: justify !important;
+}
+.postHeading{
+    margin: 20px auto;
+}
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #1A120B;
+}
+
+.footer p {
+    margin: 25px 0px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btn-outline-light {
+    color: #E5E5CB !important;
+    border-color: #E5E5CB !important;
+    letter-spacing: 5px !important;
+
+}
+
+.btn-outline-light:hover {
+    color: #1A120B !important;
+}
+.btn-outline-dark{
+    letter-spacing: 5px !important;
+}
+.btn-outline-dark:hover {
+    background-color: #1A120B !important;
+}
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#top{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  #middle{
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  #bottom{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .form-signin {
+    max-width: 330px;
+    padding: 1rem;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  
+
+@media (min-width:451px) and (max-width:800px) {
+    .container {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px 20px;
+        align-items: stretch;
+    
+    }
+}
+@media (max-width:450px){
+    .container {
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px 20px;
+        align-items: stretch;
+    
+    }
+    .container-sm{
+        padding: 0px 30px;
+        margin-bottom: 20px;
+
+    }
+    .homeBtn{
+        margin-bottom: 15px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .abtHeading{
+        font-size: 3rem;
+    }
+    .abtPara{
+        text-align: justify;
+    }
+}
+

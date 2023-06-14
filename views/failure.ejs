@@ -1,0 +1,15 @@
+<%- include("./partials/header.ejs") -%>
+<div class="container-sm my-5">
+    <div class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
+        <h1 class="text-body-emphasis">Uh Oh!</h1>
+        <p class="col-lg-6 mx-auto mb-4">
+            We apologize for the inconvenience. It seems that there was an issue with your newsletter registration. Please try again later or contact our support team for assistance.
+        </p>
+        <form action="/newsletter" method="get">
+            <button class="btn btn-warning px-5 mb-5" type="submit">
+                Try Again
+            </button>
+        </form>
+    </div>
+</div>
+<%- include("./partials/footer") -%>
