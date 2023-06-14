@@ -107,6 +107,8 @@ h2{
 }
 .postHeading{
     margin: 20px auto;
+    text-align: left !important;
+
 }
 .footer-padding {
     padding-bottom: 60px;
@@ -123,11 +125,11 @@ h2{
 
 .footer p {
     margin: 25px 0px;
-    font-size: 16px;
+    font-size: 16px; 
     color: #fff;
 }
 
-.btn-outline-light {
+.btn-outline-light {  
     color: #E5E5CB !important;
     border-color: #E5E5CB !important;
     letter-spacing: 5px !important;
